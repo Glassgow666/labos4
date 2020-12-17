@@ -41,7 +41,8 @@ We repeat the above steps until sptSet does include all vertices of given graph.
 ![Image alt](https://github.com/Glassgow666/labos4/blob/main/graph/6.jpg)
 
 
+**Conclusion**
 
-
+![Image alt](https://github.com/Glassgow666/labos4/blob/main/graph/7.jpg)
 
 
