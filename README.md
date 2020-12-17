@@ -18,27 +18,27 @@ When planning a route, it is actually not necessary to wait until the destinatio
 
 
 **Let us understand with the following example**
-![Image alt](https://github.com/VovaMaybeNextTime/Lab4OS/blob/main/res/1.jpg)
+![Image alt](https://github.com/Glassgow666/labos4/blob/main/graph/1.jpg)
 
 The set sptSet is initially empty and distances assigned to vertices are {0, INF, INF, INF, INF, INF, INF, INF} where INF indicates infinite. Now pick the vertex with minimum distance value. The vertex 0 is picked, include it in sptSet. So sptSet becomes {0}. After including 0 to sptSet, update distance values of its adjacent vertices. Adjacent vertices of 0 are 1 and 7. The distance values of 1 and 7 are updated as 4 and 8. Following subgraph shows vertices and their distance values, only the vertices with finite distance values are shown. The vertices included in SPT are shown in green colour.
 
-![Image alt](https://github.com/VovaMaybeNextTime/Lab4OS/blob/main/res/1.jpg)
+![Image alt](https://github.com/Glassgow666/labos4/blob/main/graph/2.jpg)
 
 Pick the vertex with minimum distance value and not already included in SPT (not in sptSET). The vertex 1 is picked and added to sptSet. So sptSet now becomes {0, 1}. Update the distance values of adjacent vertices of 1. The distance value of vertex 2 becomes 12.
 
-![Image alt](https://github.com/VovaMaybeNextTime/Lab4OS/blob/main/res/1.jpg)
+![Image alt](https://github.com/Glassgow666/labos4/blob/main/graph/3.jpg)
 
 Pick the vertex with minimum distance value and not already included in SPT (not in sptSET). Vertex 7 is picked. So sptSet now becomes {0, 1, 7}. Update the distance values of adjacent vertices of 7. The distance value of vertex 6 and 8 becomes finite (15 and 9 respectively).
 
-![Image alt](https://github.com/VovaMaybeNextTime/Lab4OS/blob/main/res/1.jpg)
+![Image alt](https://github.com/Glassgow666/labos4/blob/main/graph/4.jpg)
 
 Pick the vertex with minimum distance value and not already included in SPT (not in sptSET). Vertex 6 is picked. So sptSet now becomes {0, 1, 7, 6}. Update the distance values of adjacent vertices of 6. The distance value of vertex 5 and 8 are updated.
 
-![Image alt](https://github.com/VovaMaybeNextTime/Lab4OS/blob/main/res/1.jpg)
+![Image alt](https://github.com/Glassgow666/labos4/blob/main/graph/5.jpg)
 
 We repeat the above steps until sptSet does include all vertices of given graph. Finally, we get the following Shortest Path Tree (SPT).
 
-![Image alt](https://github.com/VovaMaybeNextTime/Lab4OS/blob/main/res/1.jpg)
+![Image alt](https://github.com/Glassgow666/labos4/blob/main/graph/6.jpg)
 
 
 
